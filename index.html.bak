@@ -27,7 +27,7 @@
     <div id="hero">
       <section class="container">
         <h1 class="hero-title">
-          Hi, my name is <span class="text-color-main name">Mohamad Yehya Shahbour,</span>
+          Hi, my name is <br /><span class="text-color-main name">Mohamad Shahbour,</span>
           <br />
           a Full Stack Developer.
         </h1>
@@ -84,6 +84,38 @@
       <div class="container">
         <div class="project-wrapper">
           <h2 class="section-title dark-blue-text">Projects</h2>
+
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">HR & Payroll Solution</h3>
+              <p class="project-wrapper__text-info">
+                Under construction...<br /> 
+                A dynamic solution for HR and Payroll Management System. Moreover,
+                this solution will be able to be extended to have more Management systems.
+                <br />
+                <br />
+                <b><u>Technologies:</u><br />
+                  MSSQL, ASP.NET Core, React, Bootstrap, Azure</b>
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a href="#" target="_blank"
+                  rel="noopener noreferrer" class="cta-btn cta-btn--hero cta-btn--projects">Source Code</a>
+          
+              </div>
+            </div>
+          
+            <div class="project-wrapper__image">
+              <a rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img src="./assets/hr-solution.png" class="img-fluid" alt="Project Image" />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
 
           <!-- Each .row is a project -->
           <article class="row">
@@ -357,14 +389,7 @@
           <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
         </a>
         <div class="social-links">
-          <a
-            href="https://www.instagram.com/m_yehyach/"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="instagram"
-          >
-            <i class="fa fa-instagram"></i>
-          </a>
+
           <a
             href="https://www.linkedin.com/in/mohamad-yehya-shahbour/"
             target="_blank"
